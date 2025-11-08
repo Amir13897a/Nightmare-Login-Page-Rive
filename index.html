@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login | Dark Space</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <section class="login-panel">
+        <div class="brand">
+          <h1>Welcome Back</h1>
+          <p>Sign in to your account to access the application.</p>
+        </div>
+
+        <form class="login-form" autocomplete="off">
+          <label class="input-group">
+            <span>Email</span>
+            <input type="email" placeholder="you@example.com" required />
+          </label>
+
+          <label class="input-group">
+            <span>Password</span>
+            <input type="password" placeholder="••••••••" required />
+          </label>
+
+          <div class="form-options">
+            <label class="remember-me">
+              <input type="checkbox" />
+              <span>Remember me</span>
+            </label>
+            <a href="#" class="forgot">Forgot password?</a>
+          </div>
+
+          <button type="submit" class="submit">Sign In</button>
+        </form>
+
+        <div class="footer">
+          <span>Don't have an account?</span>
+          <a href="#">Sign up</a>
+        </div>
+      </section>
+
+      <section class="animation-panel">
+        <canvas id="skeleton-canvas"></canvas>
+        <div class="overlay">
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@rive-app/canvas@2.15.4/rive.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
+
