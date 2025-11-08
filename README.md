@@ -74,4 +74,5 @@ This project is available for free and open source.
 
 ---
 
-**Made with ❤️ and Rive**
+**Made with ❤️ and Terio(https://t.me/Terio_team_ir)**
+
